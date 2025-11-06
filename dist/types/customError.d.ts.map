@@ -1,0 +1,1 @@
+{"version":3,"file":"customError.d.ts","sourceRoot":"","sources":["../../src/types/customError.ts"],"names":[],"mappings":"AACA,MAAM,WAAW,YAAa,SAAQ,KAAK;IACzC,4CAA4C;IAC5C,MAAM,EAAE,MAAM,CAAC;IAEf,4DAA4D;IAC5D,aAAa,EAAE,OAAO,CAAC;IAEvB,+EAA+E;IAC/E,IAAI,CAAC,EAAE,MAAM,CAAC;IAEd,wDAAwD;IACxD,OAAO,CAAC,EAAE,MAAM,CAAC,MAAM,EAAE,GAAG,CAAC,CAAC;CAC/B"}

@@ -8,6 +8,9 @@ import { AppError } from "../utils/appError";
 
 export const generateQuestion = async (req:Request, res:Response)=>{
     try{
+        console.log("data from the body-----------");
+        console.log(req.body);
+        
         const data = await generateService(req.body);
         console.log(data);
         return res.status(201).json({
