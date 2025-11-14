@@ -48,7 +48,7 @@ export const signInUserService = async (userDetails : IUser)=>{
             }
         }
         // now generate the token and send it
-        const token = generateJwtToken({name: user.name, email:user.email,userId:user._id}, 1);
+        const token = generateJwtToken({name: user.name, email:user.email,userId:user._id});
         return token;
         }
     }

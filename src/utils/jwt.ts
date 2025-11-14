@@ -26,10 +26,10 @@ export interface TokenPayload extends JwtPayload {
 
 export const generateJwtToken = (
   payload: TokenPayload,
-  expiresIn: number
+  // expiresIn: string,
 ): string => {
-  const options: SignOptions = { expiresIn };
-  return jwt.sign(payload, JWT_SECRET, options);
+  // const options: SignOptions = { expiresIn };
+  return jwt.sign(payload, JWT_SECRET, {expiresIn: '7d'});
 };
 
 export const verifyToken = (token: string): TokenPayload => {
